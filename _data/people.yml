@@ -1,0 +1,15 @@
+instructors:
+  - name: Dr. Nagamanikandan Govindan
+    profile_pic: /_images/pp/nagamanikandan.jpg
+
+  - name: Dr. Spandan Roy
+    profile_pic: /_images/pp/spandanroy.jpeg
+
+teaching_assistants:
+  - name: Amitabh Sharma
+    profile_pic: /_images/pp/amitabh.jpeg
+
+  - name: Pranjal Paul
+    profile_pic: /_images/pp/pranjal.jpeg
+
+    

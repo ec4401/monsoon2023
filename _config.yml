@@ -1,0 +1,63 @@
+# Site settings
+course_name: "EC4.401: Robotics- Dynamics and Control"
+course_description: "The course will introduce you to basics of modeling, design, trajectory planning, and control of robotics in industrial and service environments.
+                    After completion of this course, the students will be able to:
+                    
+                    <ul>- Describe coordinate frames, spatial transformations, and mathematical representation of joints and links </ul>
+                    <ul>- Describe the kinematics and dynamics of rigid body systems (serial manipulator) </ul>
+                    <ul>- Formulate and analyze the forward and inverse model using analytical and numerical methods </ul>
+                    <ul>- Develop software programs to generate trajectory and control the robot to track the command trajectory </ul>
+                    <ul>- Apply the learned robot model for joint space control and end-effector control of the manipulator and analyze them </ul>
+
+                    <b> Course Pre-requisites :- </b> Working knowledge on Linear Algebra, Differential Calculus and Numerical Methods would be helpful" 
+                
+course_semester: "Monsoon 2023"
+
+baseurl: "/monsoon2023" # the subpath of your site, e.g. /blog/
+url: "https://ec4401.github.io/" # the base hostname & protocol for your site
+
+schoolname: "IIIT, Hyderabad"
+schoolurl: "https://www.iiit.ac.in"
+# twitter_username: username 
+
+address: |
+    International Institute of Information Technology
+    Prof. C R Rao Road
+    Gachibowli, Hyderabad 500 032
+    Telangana, INDIA
+
+# Set your Google Analytics tracking ID (set up yours at http://www.google.com/analytics/)
+# google_analytics: UA-XXXXXXXX-X
+
+### Do not change the followings unless you know what you are doing ###
+
+# Build settings
+markdown: kramdown
+
+# Other options
+permalink: blog/:year/:month/:title
+excerpt_separator: "<!--more-->"
+
+include: ['_images', '_css']
+exclude: ['develop']
+
+dateformat: "%m/%d/%Y"
+
+future: true
+collections:
+    events:
+        output: false
+    lectures:
+        output: false
+    assignments:
+        output: false
+    announcements:
+        output: false
+
+
+defaults:
+  - scope:
+      path: ""
+      type: "assignments"
+    values:
+      layout: "assignment"
